@@ -7,4 +7,6 @@ app.use('/', (req: Request, res: Response, next: NextFunction) => {
   res.status(200).json({ data: 'Hello World!' })
 })
 
-app.listen(port, () => { console.log(`Server running on port ${port}`) })
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`)
+})
