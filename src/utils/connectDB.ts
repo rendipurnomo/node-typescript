@@ -1,3 +1,4 @@
+/* eslint-disable import/no-duplicates */
 import mongoose from 'mongoose'
 import config from '../config/environment'
 import { logger } from './logger'

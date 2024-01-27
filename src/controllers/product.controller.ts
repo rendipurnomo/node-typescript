@@ -1,4 +1,4 @@
-import { Request, Response } from 'express'
+import { type Request, type Response } from 'express'
 import { createProductValidation, updateProductValidation } from '../validations/product.validation'
 import { logger } from '../utils/logger'
 import { createProductDB, deleteProductByIdDB, getProductsDB, updateProductByIdDB } from '../services/product.service'

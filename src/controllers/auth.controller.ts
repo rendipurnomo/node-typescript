@@ -1,4 +1,4 @@
-import { Request, Response } from 'express'
+import { type Request, type Response } from 'express'
 import { createSessionValidation, createUserValidation, refreshSessionValidation } from '../validations/user.validation'
 import { v4 as uuidv4 } from 'uuid'
 import { logger } from '../utils/logger'

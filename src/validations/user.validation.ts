@@ -1,3 +1,4 @@
+/* eslint-disable import/no-duplicates */
 import joi from 'joi'
 import type UserType from '../types/user.type'
 

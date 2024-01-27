@@ -1,5 +1,4 @@
-/* eslint-disable @typescript-eslint/consistent-type-imports */
-import { Application, Router, Request, Response } from 'express'
+import { type Application, type Router, type Request, type Response } from 'express'
 import { AuthRouter } from './users.route.'
 import { ProductRouter } from './products.route.'
 

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-duplicates */
 import express, { Application, Request, Response, NextFunction } from 'express'
 import bodyParser from 'body-parser'
 import { routes } from './routes'
